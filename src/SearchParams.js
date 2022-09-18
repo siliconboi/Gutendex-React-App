@@ -22,7 +22,7 @@ const SearchParams = ()=>{
         return (
         <div className="bg-gradient-to-br from-cyan-200 to-white w-11/12 my-0 mx-auto">
             <form
-            className="p-10 mb-10 rounded-lg bg-cyan-300 shadow-lg flex flex-col justify-center items-center font-sans text-white font-semibold text-md"
+            className="p-10 mb-10 rounded-lg bg-cyan-300 shadow-lg flex flex-col justify-center items-center font-sans text-black font-semibold text-md"
             onSubmit={(e)=>{
                 e.preventDefault();
                 requestBooks();
